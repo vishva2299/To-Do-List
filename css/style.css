@@ -156,10 +156,6 @@ button{
       margin: 0 10px;
   }
 
-  .input-container {
-      flex-direction: column;
-  }
-
   .todo-input {
       margin-bottom: 10px;
       width: 100%;
