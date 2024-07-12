@@ -94,7 +94,7 @@ button{
  }
  
  .todo:hover input:checked + span::before, input:checked + span::before {
-   background: url('/assets/svg/check.svg') 50% 50% no-repeat #09bb21;
+   background: url('assets/svg/check.svg') 50% 50% no-repeat #09bb21;
    border-color: #09bb21;
  }
  
