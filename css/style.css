@@ -150,25 +150,78 @@ button{
    color: white;
  }
 
- @media (max-width: 768px) {
-  .list {
-      width: 100%;
-      margin: 0 10px;
-  }
+/* @media (max-width: 768px) {
+.list {
+  margin: 0 10px;
+}
 
+.todo-input {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.filters {
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.filter,
+.delete-all {
+    margin-top: 10px;
+    text-align: center;
+}
+} */
+
+@media (max-width: 320px) {
+  
+  .input-container {
+    align-items: stretch;
+  }
   .todo-input {
-      margin-bottom: 10px;
-      width: 100%;
+    /* width: 100%; */
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 14px;
   }
-
+  .add-button {
+    /* width: 100%; */
+    /* height: auto; */
+    /* padding: 5px; */
+    margin-top: 5px;
+  }
   .filters {
-      flex-direction: column;
-      align-items: stretch;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 10px;
   }
-
   .filter,
   .delete-all {
-      margin-top: 10px;
-      text-align: center;
+    width: 100%;
+    margin-top: 5px;
+    font-size: 14px;
+    padding: 5px;
+    text-align: center;
+  }
+  .todos-container {
+    height: 200px;
+  }
+  .todo {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+    font-size: 14px;
+  }
+  .todo label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  .todo .delete-btn {
+    font-size: 20px;
+    align-self: flex-end;
+  }
+  .empty-image{
+    width: 200px;
+    height: 150px;
+    margin: 0;
   }
 }
